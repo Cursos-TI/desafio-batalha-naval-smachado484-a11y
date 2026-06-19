@@ -79,7 +79,7 @@ int main() {
             }
         printf("\n");
         }
-
+        
      //Posicionando os navios
     /* CONFIGURAÇÃO DOS NAVIOS
     Cada navio possui tamanho 3.
@@ -105,7 +105,7 @@ int main() {
     //Mostra o tabuleiro após o posicionamento dos navios
     printf("\nTABULEIRO COM NAVIOS\n\n");
 
-    printf("    ");
+    printf("   ");
     for(int i = 0; i < 10; i++) {
         printf("%c ", letras_colunas[i]);
     }
@@ -113,7 +113,7 @@ int main() {
     printf("\n");
 
     for(int i = 0; i < 10; i++){
-        printf("%2d", letras_colunas[i]);
+        printf("%2d ", numero_linhas[i]);
 
         for(int j = 0; j < 10; j++) {
             printf("%d ", tabuleiro[i][j]);
